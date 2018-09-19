@@ -27,7 +27,7 @@
     display: block;
     margin: 0.2rem 0 -0.2rem;
     border: 0.3rem solid transparent;
-    border-top-color: #888;
+    border-top-color: currentColor;
 }
 
 .oxy-nav-menu-responsive-dropdowns .link-toggle-container.activated > .sub-menu-toggle::before {
@@ -44,13 +44,9 @@
     overflow: initial;
 }
 
-.oxygen-body .oxy-nav-menu.oxy-nav-menu-open.oxy-nav-menu-responsive-dropdowns .menu-item .sub-menu,
+body .oxy-nav-menu.oxy-nav-menu-open.oxy-nav-menu-responsive-dropdowns .menu-item .sub-menu,
 .sub-menu-toggle {
     display: none;
-}
-
-.oxy-nav-menu-responsive-dropdowns .oxy-nav-menu:not('.oxy-nav-menu-open') .sub-menu {
-    display: flex;
 }
 
 .oxy-nav-menu-responsive-dropdowns.oxy-nav-menu.oxy-nav-menu-open .sub-menu-toggle {
