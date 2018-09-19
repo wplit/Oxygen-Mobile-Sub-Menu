@@ -26,14 +26,16 @@ For general info on setting up menus in Oxygen, refer to the [offical documentat
 
 1. Ensure you have enabled dropdowns in the primary menu settings.
 2. Ensure you have 'Include dropdowns links in the responsive menu' checked also.
-3. Inside the Oxygen builder you should see all menu items, sub menu items and top level menu items.
+3. When viewing the responsive menu from inside Oxygen (after clicking the burger menu) you should see all the menu items.
 4. Save and go to the front end of your site and you should see the menu toggles now working.
 
-### To style sub menu items just in your responsive menu..
+### To style just the sub menu items in your responsive menu..
 
 You may want to style the sub menu items differently to make them look more like sub menu items. In my [demo](https://demo.wplit.com/oxygen-mobile-menu/), you can see the font size and line height was reduced for sub menu items only to make it more obvious. 
 
-You can do this easily inside the Oxygen builder using the selector detector and ensuring you're specific with the selectors. Notice in the screenshot below I have selected the unique menu ID and the class 'oxy-nav-menu-open' before selecting the sub menu class and link.
+In Oxygen you already have the controls to style the menu items, but to target the sub menu items only you need to use the selector detector. 
+
+Notice in the screenshot below I have selected the unique menu ID and the class 'oxy-nav-menu-open' before selecting the sub menu class and link. This specificity allows you to override the styles already created for your overall menu. 
 
 <img src="https://user-images.githubusercontent.com/43051571/45732439-a69b3e00-bc1f-11e8-9365-0271712f6fe8.jpg">
 
