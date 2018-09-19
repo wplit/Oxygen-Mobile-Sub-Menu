@@ -7,6 +7,8 @@
 
 This plugin allows you to add sub menu toggle functionality to your site created in [Oxygen](http://oxygenbuilder.com/).
 
+See [demo](https://demo.wplit.com/oxygen-mobile-menu/).
+
 (designed as a temporary solution until something similar is added to Oxygen, if that happens... just uninstall this plugin before updating to the next Oxygen version)
 
 There are no settings or setup. It is intentionally simple, allowing you to style the sub menu as you want from inside the Oxygen UI.
