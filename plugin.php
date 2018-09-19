@@ -4,7 +4,7 @@
  * Plugin URI:  https://github.com/wplit/oxygen-mobile-sub-menu/
  * GitHub URI:  wplit/oxygen-mobile-sub-menu/
  * Description: Temporary Fix for Allowing Mobile Sub Menus in Oxygen.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      David @ WPlit
  * Author URI:  https://wplit.com/
  *
