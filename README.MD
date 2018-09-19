@@ -31,6 +31,8 @@ For general info on setting up menus in Oxygen, refer to the [offical documentat
 3. Inside the Oxygen builder you should see all menu items, top level and sub menus.
 4. To style sub menu items just for mobiles, you can select them using the selector detector and use Oxygen UI to style. Be sure you have the ID of the menu and the class 'oxy-nav-menu-open' selected to override (see image below for example)
 
+### Here's a screenshot showing styling the sub menu using the selector detector.
+
 <img src="https://user-images.githubusercontent.com/43051571/45732439-a69b3e00-bc1f-11e8-9365-0271712f6fe8.jpg">
 
 Note: You won't see the menu toggle buttons inside the Oxygen builder. Use the builder just to style the menus as you need. The toggle buttons will automatically appear on the front end of your site.
