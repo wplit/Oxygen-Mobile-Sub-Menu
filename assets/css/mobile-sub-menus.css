@@ -1,0 +1,65 @@
+.oxy-nav-menu-responsive-dropdowns .link-toggle-container {
+    position: relative;
+}
+
+.oxy-nav-menu-responsive-dropdowns .sub-menu-toggle {
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background: none;
+    padding: 0.75em;
+    margin: 0 -0.75em;
+    z-index: 2;
+}
+
+.oxy-nav-menu-responsive-dropdowns .sub-menu-toggle:focus {
+    outline: none;
+    border-color: #eee;
+}
+
+.oxy-nav-menu-responsive-dropdowns .sub-menu-toggle::before {
+ 	content: "";
+    display: block;
+    margin: 0.2rem 0 -0.2rem;
+    border: 0.3rem solid transparent;
+    border-top-color: #888;
+}
+
+.oxy-nav-menu-responsive-dropdowns .link-toggle-container.activated > .sub-menu-toggle::before {
+ 	-ms-transform: rotate(180deg);
+ 	    transform: rotate(180deg);
+  	-webkit-transform: rotate(180deg);
+    margin: -0.2rem 0 0.2rem;
+}
+
+.oxy-nav-menu.oxy-nav-menu-open.oxy-nav-menu-responsive-dropdowns > div:last-child {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: initial;
+}
+
+.oxygen-body .oxy-nav-menu.oxy-nav-menu-open.oxy-nav-menu-responsive-dropdowns .menu-item .sub-menu,
+.sub-menu-toggle {
+    display: none;
+}
+
+.oxy-nav-menu-responsive-dropdowns .oxy-nav-menu:not('.oxy-nav-menu-open') .sub-menu {
+    display: flex;
+}
+
+.oxy-nav-menu-responsive-dropdowns.oxy-nav-menu.oxy-nav-menu-open .sub-menu-toggle {
+    display: block;
+}
+
+.oxy-nav-menu-responsive-dropdowns.oxy-nav-menu.oxy-nav-menu-open .menu-item .sub-menu,
+.oxy-nav-menu-responsive-dropdowns.oxy-nav-menu.oxy-nav-menu-open .menu-item:hover > .sub-menu {
+ 	opacity: 1;
+  	visibility: visible;
+  	position: static;
+}
