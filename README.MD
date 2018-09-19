@@ -31,7 +31,7 @@ For general info on setting up menus in Oxygen, refer to the [offical documentat
 
 ### To style sub menu items just in your responsive menu..
 
-You may want to style the sub menu items differently to make them look more like a sub menu items. In the [demo](https://demo.wplit.com/oxygen-mobile-menu/) you can see the font size and line height was reduced for sub menu items only. 
+You may want to style the sub menu items differently to make them look more like sub menu items. In my [demo](https://demo.wplit.com/oxygen-mobile-menu/), you can see the font size and line height was reduced for sub menu items only to make it more obvious. 
 
 You can do this easily inside the Oxygen builder using the selector detector and ensuring you're specific with the selectors. Notice in the screenshot below I have selected the unique menu ID and the class 'oxy-nav-menu-open' before selecting the sub menu class and link.
 
