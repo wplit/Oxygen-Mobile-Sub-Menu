@@ -7,11 +7,11 @@
 
 This plugin allows you to add sub menu toggle functionality to your site created in [Oxygen](http://oxygenbuilder.com/).
 
-See [demo](https://demo.wplit.com/oxygen-mobile-menu/).
+See [demo](https://demo.wplit.com/oxygen-mobile-menu/) for working example.
 
 (designed as a temporary solution until something similar is added to Oxygen, if that happens... just uninstall this plugin before updating to the next Oxygen version)
 
-There are no settings or setup. The plugin is intentionally simple and just adds basic styling and some JS to add the toggle buttons. You can style the sub menu however you want using the Oxygen UI.
+There are no settings or setup. The plugin is intentionally simple and just adds basic styling and some JS to add the toggle buttons. You can style the sub menu however you want using the Oxygen UI (explained below)
 
 For general info on setting up menus in Oxygen, refer to the [offical documentation](https://oxygenbuilder.com/documentation/builder-elements/menu/).
  
@@ -24,14 +24,16 @@ For general info on setting up menus in Oxygen, refer to the [offical documentat
 
 ## Usage ##
 
-### To activate sub menus in your mobile responsive menu
-
 1. Ensure you have enabled dropdowns in the primary menu settings.
 2. Ensure you have 'Include dropdowns links in the responsive menu' checked also.
-3. Inside the Oxygen builder you should see all menu items, top level and sub menus.
-4. To style sub menu items just for mobiles, you can select them using the selector detector and use Oxygen UI to style. Be sure you have the ID of the menu and the class 'oxy-nav-menu-open' selected to override (see image below for example)
+3. Inside the Oxygen builder you should see all menu items, sub menu items and top level menu items.
+4. Save and go to the front end of your site and you should see the menu toggles now working.
 
-### Here's a screenshot showing using the selector detector to target the sub menu on mobiles only.
+### To style sub menu items just in your responsive menu..
+
+You may want to style the sub menu items differenly to make them look more like a sub menu items. In the [demo](https://demo.wplit.com/oxygen-mobile-menu/) you can see the font size and line height was reduced for sub menu items only. 
+
+You can do this easily inside the Oxygen builder using the selector detector and ensuring you're specific with the selectors. Notice in the screenshot below I have selected the unique menu ID and the class 'oxy-nav-menu-open' before selecting the sub menu class and link.
 
 <img src="https://user-images.githubusercontent.com/43051571/45732439-a69b3e00-bc1f-11e8-9365-0271712f6fe8.jpg">
 
