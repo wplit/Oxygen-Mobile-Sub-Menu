@@ -47,5 +47,8 @@ Coming v/soon
 
 ## Changelog ##
 
+### 1.0.1 - Sept 20, 2018 ###
+* Sub Menu toggles are now the same color as the menu link color, as set in Oxygen.
+
 ### 1.0.0 - Sept 19, 2018 ###
 * Initial Release
