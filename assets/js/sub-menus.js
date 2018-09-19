@@ -5,14 +5,7 @@ jQuery(document).ready(function($) {
 	 * Create container for menu link and append sub menu toggle button. (container needed to be able to center position the icon)
 	 */
     $('.menu-item-has-children > a').wrap( '<div class="link-toggle-container"></div>');
-	$('.link-toggle-container').append( '<button class="sub-menu-toggle"></button>');
-    
-    /**
-	 * Get menu link color as set in Oxygen to allow toggle arrows to inherit the color.
-	 */
-    var menulinkColor = $('.link-toggle-container > a').css("color");
-    $('.link-toggle-container').css( "color", menulinkColor );
-					
+	$('.link-toggle-container').append( '<button class="sub-menu-toggle"></button>');					
   	
   	/**
 	 * Action to take when sub menu button is clicked
