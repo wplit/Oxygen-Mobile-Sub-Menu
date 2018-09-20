@@ -43,7 +43,7 @@ Note: You won't see the menu toggle buttons inside the Oxygen builder. Use the b
 
 You can change the color of the toggle buttons by adding... 
 
-.oxy-nav-menu-responsive-dropdowns .sub-menu-toggle::before { color: red; )
+.oxy-nav-menu-responsive-dropdowns .sub-menu-toggle { color: red; )
 
 ## Screencast ##
 
