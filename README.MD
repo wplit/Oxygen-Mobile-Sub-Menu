@@ -41,15 +41,15 @@ Notice in the screenshot below I have selected the unique menu ID and the class 
 
 Note: You won't see the menu toggle buttons inside the Oxygen builder. Use the builder just to style the menus as you need. The toggle buttons will automatically appear on the front end of your site.
 
-You can change the color of the toggle buttons by adding... 
-
-.oxy-nav-menu-responsive-dropdowns .sub-menu-toggle { color: red; )
 
 ## Screencast ##
 
 Coming v/soon
 
 ## Changelog ##
+
+### 1.0.1 - Sept 20, 2018 ###
+* Instead of being grey, menu toggles now inherit same color as menu items as set in Oxygen.
 
 ### 1.0.0 - Sept 19, 2018 ###
 * Initial Release
