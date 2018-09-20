@@ -5,7 +5,8 @@ jQuery(document).ready(function($) {
 	 * Create container for menu link and append sub menu toggle button. (container needed to be able to center position the icon)
 	 */
     $('.menu-item-has-children > a').wrap( '<div class="link-toggle-container"></div>');
-	$('.link-toggle-container').append( '<button class="sub-menu-toggle"></button>');					
+	$('.link-toggle-container').append( '<button class="sub-menu-toggle"></button>');
+					
   	
   	/**
 	 * Action to take when sub menu button is clicked
@@ -30,5 +31,18 @@ jQuery(document).ready(function($) {
         $( ".sub-menu" ).removeAttr("style");
       
     }); 
+    
+   /**
+	 * Retrieve the color of the responsive menu links set in Oxygen (by adding fake element then removing, so we can use to make toggle buttons the same color
+	 */
+    var menuid = $(".oxy-nav-menu-responsive-dropdowns").attr('id'), //get the id of responsive menu
+        fakeelement = $("<div class='fake oxy-nav-menu oxy-nav-menu-open'><div class='menu-item'><a></a></div></div>"); //add fake element with same classes open menu items so JS can extract the color set by Oxygen.
+    
+        fakeelement.appendTo('body'); //Add fake element
+        fakeelement.attr("id",menuid); // Give it the ID of menu
+    var color = $('.fake a').css('color'); // Retrieve the color that is added by Oxygen
+        fakeelement.remove(); // Remove fake element 
+
+    $( ".sub-menu-toggle" ).css("color", color); // Give sub menu toggle this color, so it can be inherited.
 
 }); 
