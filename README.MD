@@ -46,7 +46,8 @@ Note: You won't see the menu toggle buttons inside the Oxygen builder. Use the b
 ## Changelog ##
 
 ### 1.1.0 - Aug 3, 2019 ###
-* Ensure dropdown arrows remain on large screens.
+* Ensure dropdown arrows remain on large screens
+* Check that Oxygen is activated before enqueuing files.
 
 ### 1.0.1 - Sept 20, 2018 ###
 * Instead of being grey, menu toggles now inherit same color as menu items as set in Oxygen.
