@@ -59,3 +59,18 @@ body .oxy-nav-menu.oxy-nav-menu-open.oxy-nav-menu-responsive-dropdowns .menu-ite
   	visibility: visible;
   	position: static;
 } 
+
+.oxy-nav-menu-dropdowns.oxy-nav-menu-dropdown-arrow:not(.oxy-nav-menu-open) .menu-item-has-children > .link-toggle-container > a::after{
+    width:.35em;
+    height:.35em;
+    margin-left:.5em;
+    border-right:.1em solid;
+    border-top:.1em solid;
+    transform:rotate(135deg);
+    content:""
+}
+
+.oxy-nav-menu-dropdowns.oxy-nav-menu-dropdown-arrow:not(.oxy-nav-menu-open) .sub-menu .menu-item-has-children> .link-toggle-container >a::after,
+.oxy-nav-menu-dropdowns.oxy-nav-menu-dropdown-arrow.oxy-nav-menu-vertical:not(.oxy-nav-menu-open) .menu-item-has-children> .link-toggle-container >a::after{
+    transform:rotate(45deg)
+}
