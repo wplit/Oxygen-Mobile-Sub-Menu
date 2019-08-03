@@ -27,13 +27,25 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-add_action( 'oxygen_enqueue_frontend_scripts', 'lit_oxy_menu_enqueue_files' );
+add_action('plugins_loaded', 'lit_oxy_sub_toggles_init');
+function lit_oxy_sub_toggles_init() {
+
+  // check if Oxygen installed and active before using Oxygen dependant hook
+  if( ! class_exists( 'CT_Component' ) ) {
+        return;   
+    }
+		
+  add_action( 'oxygen_enqueue_frontend_scripts', 'lit_oxy_menu_enqueue_files' );
+	
+}
+
+
 /**
  * Loads the CSS and JS files on front end only
  */
 function lit_oxy_menu_enqueue_files() {
 
-	wp_enqueue_style( 'mobile-sub-menu-styles', plugin_dir_url( __FILE__ ) . 'assets/css/mobile-sub-menus.css' );
-	wp_enqueue_script( 'mobile-sub-menus', plugin_dir_url( __FILE__ ) . 'assets/js/sub-menus.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_style( 'mobile-sub-menu-styles', plugin_dir_url( __FILE__ ) . 'assets/css/mobile-sub-menus.css', array(), '1.1.0'); );
+	wp_enqueue_script( 'mobile-sub-menus', plugin_dir_url( __FILE__ ) . 'assets/js/sub-menus.js', array( 'jquery' ), '1.1.0', true );
 
 }
