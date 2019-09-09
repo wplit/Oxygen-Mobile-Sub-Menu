@@ -41,7 +41,9 @@ Notice in the screenshot below I have selected the unique menu ID and the class 
 
 Note: You won't see the menu toggle buttons inside the Oxygen builder. Use the builder just to style the menus as you need. The toggle buttons will automatically appear on the front end of your site.
 
+## Support ##
 
+I'd love to keep building useful tools for free. if you find my work valuable, consider [buying me a coffee](https://www.buymeacoffee.com/wplit) to show your support. 
 
 ## Changelog ##
 
